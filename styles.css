@@ -21,11 +21,11 @@ header {
     line-height: 20px;
     letter-spacing: 0.7px;
     cursor: pointer;
-    
+
 }
 
 .link-header::after {
-    content:"🥊"
+    content: "🥊"
 }
 
 
@@ -102,7 +102,7 @@ footer {
     display: inline-block;
     margin-bottom: -30px;
     margin-left: 600px;
-    
+
 }
 
 
@@ -134,5 +134,55 @@ h3 {
     font-size: 30px;
     background-color: grey;
     text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        display: none;
+    }
+
+    .imagem-luta {
+        width: 300px;
+        height: 350px;
+        position: relative;
+        top: 100px;
+        right: 100px;
+    }
+
+    h1 {
+        position: relative;
+        top: 50px;
+        right: 370px;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .imagem-luva {
+        display: none;
+    }
+
+    p {
+        position: relative;
+        right: 380px;
+        font-size: 36px;
+        font-weight: 700;
+        color: darkolivegreen;
+    }
+
+    .button-aside {
+        position: relative;
+        right: 250px;
+        width: 250px;
+        height: 60px;
+        border-radius: 40px;
+        font-size: 40px;
+    }
+
+    footer {
+        display: none;
+    }
+
 
 }
