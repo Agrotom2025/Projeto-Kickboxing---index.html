@@ -42,6 +42,14 @@ header {
     cursor: pointer;
 }
 
+.button-header:hover {
+    opacity: 0.8;
+}
+
+.button-header:active {
+    opacity: 0.4;
+}
+
 .imagem-luta {
     width: 500px;
     height: 500px;
@@ -94,6 +102,14 @@ p {
     cursor: pointer;
 }
 
+.button-aside:hover {
+    opacity: 0.8;
+}
+
+.button-aside:active {
+    opacity: 0.4;
+}
+
 footer {
     margin-left: 30px;
 }
@@ -144,19 +160,19 @@ h3 {
     }
 
     .imagem-luta {
-        width: 300px;
-        height: 350px;
+        width: 100px;
+        height: 150px;
         position: relative;
-        top: 100px;
-        right: 100px;
+        top: 40px;
+        right: 160px;
     }
 
     h1 {
         position: relative;
-        top: 50px;
-        right: 370px;
-        font-size: 70px;
+        right: 390px;
+        font-size: 30px;
         text-align: center;
+        width: 250px;
     }
 
     .imagem-luva {
@@ -165,19 +181,31 @@ h3 {
 
     p {
         position: relative;
-        right: 380px;
-        font-size: 36px;
+        right: 390px;
+        bottom: 40px;
+        font-size: 15px;
         font-weight: 700;
         color: darkolivegreen;
+        width: 250px;
     }
 
     .button-aside {
         position: relative;
-        right: 250px;
-        width: 250px;
-        height: 60px;
+        right: 350px;
+        bottom: 20px;
+        width: 190px;
+        height: 40px;
         border-radius: 40px;
-        font-size: 40px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .button-aside:hover {
+        opacity: 0.8;
+    }
+
+    .button-aside:active {
+        opacity: 0.4;
     }
 
     footer {
